@@ -14,8 +14,8 @@ export default function Profile() {
       try {
         const token = localStorage.getItem('token');
         const endpoint = user.role === 'Donor' 
-          ? 'http://localhost:8000/api/food/my-donations' 
-          : 'http://localhost:8000/api/food/my-accepted-food';
+          ? 'https://food-rescue-hub-backend.vercel.app/api/food/my-donations' 
+          : 'https://food-rescue-hub-backend.vercel.app/api/food/my-accepted-food';
         
         const res = await axios.get(endpoint, {
           headers: { Authorization: `Bearer ${token}` }

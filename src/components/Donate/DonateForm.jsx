@@ -45,7 +45,7 @@ export default function DonateForm() {
     try {
 
       const response = await axios.post(
-        'http://localhost:8000/api/food/add',
+        'https://food-rescue-hub-backend.vercel.app/api/food/add',
         formData,
         {
           headers: {

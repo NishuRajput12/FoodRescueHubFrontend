@@ -54,7 +54,7 @@ export default function RequestForm() {
     try {
 
       const response = await axios.post(
-        'http://localhost:8000/api/food/request/add',
+        'https://food-rescue-hub-backend.vercel.app/api/food/request/add',
         formData,
         {
           headers: {

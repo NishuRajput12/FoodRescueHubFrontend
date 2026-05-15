@@ -42,7 +42,7 @@ export default function RegisterForm({ onSwitch }) {
     try {
 
       const response = await axios.post(
-        "http://localhost:8000/api/auth/register",
+        "https://food-rescue-hub-backend.vercel.app/api/auth/register",
         formData
       );
 
