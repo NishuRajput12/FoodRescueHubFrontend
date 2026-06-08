@@ -13,6 +13,7 @@ import Footer from "./components/Footer.jsx";
 import Profile from './components/Profile.jsx';
 import AvailableFood from './components/Request/AvailableFood';
 import NgoRequests from './components/Request/NgoRequests'
+import Problem from './components/Home/Problem.jsx';
 
 
 
@@ -66,7 +67,8 @@ function App() {
         <>
           <Home setCurrentPage={navigateTo} user={user} /> 
           <About setCurrentPage={navigateTo} user={user} />
-          <Services />
+          <Problem/>
+          <Services />  
           <Contact />
           <Footer />
         </>
