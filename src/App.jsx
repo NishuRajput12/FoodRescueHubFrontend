@@ -14,7 +14,7 @@ import Profile from './components/Profile.jsx';
 import AvailableFood from './components/Request/AvailableFood';
 import NgoRequests from './components/Request/NgoRequests'
 
-const API_URL = "https://food-rescue-hub-backend.vercel.app/";
+
 
 function App() {
   const [currentPage, setCurrentPage] = useState("home");
@@ -61,7 +61,6 @@ function App() {
           {flashMessage}
         </div>
       )}
-
       
       {currentPage === "home" && (
         <>

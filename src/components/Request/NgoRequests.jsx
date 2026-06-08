@@ -7,7 +7,7 @@ export default function NgoRequests() {
   useEffect(() => {
     const fetchRequests = async () => {
       try {
-        const res = await axios.get("https://food-rescue-hub-backend.vercel.app/api/food/all-requests");
+        const res = await axios.get("http://localhost:8000/api/food/all-requests");
         setRequests(res.data.requests);
       } catch (err) {
         console.error("API Error:", err);

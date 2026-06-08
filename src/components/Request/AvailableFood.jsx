@@ -19,7 +19,7 @@ export default function AvailableFood() {
   useEffect(() => {
     const fetchFoods = async () => {
       try {
-        const response = await axios.get('https://food-rescue-hub-backend.vercel.app/api/food/available');
+        const response = await axios.get('http://localhost:8000/api/food/available');
         setFoods(response.data.foods);
         setLoading(false);
       } catch (err) {
@@ -36,7 +36,7 @@ export default function AvailableFood() {
 
     try {
       const res = await axios.put(
-        `https://food-rescue-hub-backend.vercel.app/api/food/accept/${foodId}`,
+        `http://localhost:8000/api/food/accept/${foodId}`,
         {},
         {
           headers: {

@@ -123,7 +123,7 @@ const Contact = () => {
           <p>foodrescuehelp@gmail.com</p>
 
           <h4>Phone</h4>
-          <p>+91 98765 43210</p>
+          <p>+91 9999999999</p>
 
           <h4>Support</h4>
           <ul>
