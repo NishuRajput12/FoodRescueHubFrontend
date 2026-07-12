@@ -1,16 +1,35 @@
-# React + Vite
+# Food Rescue Hub - Frontend (React) 🌍🍲
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to the frontend repository of **Food Rescue Hub**, a full-stack MERN web application designed to bridge the gap between surplus food donors (restaurants, wedding halls) and NGOs to reduce food waste and combat hunger.
 
-Currently, two official plugins are available:
+The client-side is built using **React.js**, delivering a responsive, high-performance, and stateless user experience.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 🚀 Key Features Deployed
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+*   **Role-Based Dynamic Dashboards:** Distinct user interfaces and routing for **Donors** (to list surplus food items) and **NGOs** (to view a live feed and claim available food).
+*   **Secure Stateless Authentication:** Session security integrated with JSON Web Tokens (JWT) and persistent state access control.
+*   **Flash Messaging System:** Instant interactive feedback pop-ups for critical user actions (e.g., successful postings, errors, logouts) to enhance user experience.
+*   **100% Responsive Architecture:** Fully adaptive UI grid system built to run flawlessly across desktop browsers, tablets, and smartphones.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tech Stack & Dependencies
+
+*   **Core Library:** React.js (Single Page Application architecture)
+*   **Routing:** React Router DOM (Dynamic declarative client-side routing)
+*   **HTTP Client:** Axios (For async API integration with the Node.js backend)
+*   **Styling:** Custom CSS Grid / Flexbox (Optimized for fluid responsive rendering)
+*   **State Management:** React Context API / Hooks (`useState`, `useEffect`)
+
+---
+
+## 💻 Local Installation & Setup
+
+Follow these steps to run this frontend repository on your local system:
+
+### 1. Clone the repository
+```bash
+git clone [https://github.com/NishuRajput12/FoodRescueHubFrontend.git](https://github.com/NishuRajput12/FoodRescueHubFrontend.git)
+cd food-rescue-frontend
